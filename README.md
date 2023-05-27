@@ -11,8 +11,7 @@ iOS 아키텍처 패턴에 대해 공부하고 정리하는 레포입니다.
 
 ### 아키텍처가 중요한 이유?
 
-여러 아키텍쳐 패턴을 본격적으로 들어가기 전, 막연히 "프로젝트는 나 혼자만 만드는게 아니기에, 처음부터 설계를 잘하면 이후에 고생을 덜 하기에" 라고만 생각했기 때문에 더 구체적으로 아키텍처가 왜 중요한지 알아보았습니다.
-
+여러 아키텍쳐 패턴을 본격적으로 들어가기 전, 막연히 "프로젝트는 나 혼자만 만드는게 아니기에, 처음부터 설계를 잘하면 이후에 고생을 덜 하기에" 라고만 생각했기 때문에 더 구체적으로 아키텍처가 왜 중요한지 알아보았습니다.
 
 **1. 개발자의 생산성과 직결**
 
@@ -93,4 +92,6 @@ iOS 아키텍처 패턴에 대해 공부하고 정리하는 레포입니다.
 
 
 
-(reference: [클린 아키텍처](http://www.yes24.com/Product/Goods/77283734), [클린 코드](http://www.yes24.com/Product/Goods/11681152), [iOS Architecture Pattern](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52) 등 기타 레퍼런스)
+(reference: [클린 아키텍처](http://www.yes24.com/Product/Goods/77283734), [클린 코드](http://www.yes24.com/Product/Goods/11681152), [iOS Architecture Pattern](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52),
+[앨런 Swift문법 마스터스쿨](https://www.inflearn.com/course/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EB%AC%B8%EB%B2%95-%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%8A%A4%EC%BF%A8)
+등 기타 레퍼런스)
