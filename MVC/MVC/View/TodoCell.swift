@@ -49,7 +49,9 @@ final class ToDoCell: UITableViewCell {
     func configureUIwithData() {
         toDoTextLabel.text = toDoData?.todoText
         dateTextLabel.text = toDoData?.dateString
+        
         guard let colorNum = toDoData?.type else { return }
+        
         let color = MyColor(rawValue: colorNum) ?? .red
         updateButton.backgroundColor = color.buttonColor
         deleteButton.backgroundColor = color.buttonColor
