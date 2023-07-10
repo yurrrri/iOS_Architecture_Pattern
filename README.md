@@ -77,7 +77,8 @@ iOS 아키텍처 패턴에 대해 공부하고 정리하는 레포입니다.
 🚨 **문제점** 
 <img src="https://github.com/paicooha/Growlibb-iOS/assets/37764504/88e3e850-eee7-4eea-93eb-265e54e42914" width="500"/>
 
-뷰컨트롤러가 뷰로부터 전달받은 액션을 모델에게 전달하고, 모델이 데이터를 변화시키면 이를 뷰컨트롤러에게 전달하고, 뷰컨트롤러는 다시 뷰에게 전달하는 등으로 인해
+뷰컨트롤러가 뷰로부터 전달받은 액션을 모델에게 전달하고, 모델이 데이터를 변화시키면 이를 뷰컨트롤러에게 전달하고, 뷰컨트롤러는 다시 뷰에게 전달하고,
+ViewController의 역할인 화면 전환, View Controller에 있는 화면 관리까지 함으로 인해
 - 뷰컨트롤러의 역할이 매우 비대해지게 되었으며
 - 뷰와 컨트롤러가 매우 밀접한 연관관계를 가지면서 오히려 View와 Controller의 독립성이 약화되었다.
 - 이로 인해 좋은 아키텍처의 조건 1. 확실한 역할의 분배, 2. 테스트가 용이한가 의 조건에 부합하지 않게 된다.
@@ -86,10 +87,9 @@ iOS 아키텍처 패턴에 대해 공부하고 정리하는 레포입니다.
 
 즉, **빠르고 쉽게 개발을 진행해야할 때 가장 적합한 아키텍처이다.**
 
-다음은 직접 MVC 패턴으로 프로젝트를 구성해보면서 이해한 코드이다. 어떻게 뷰와 컨트롤러가 밀접한 관련이 있다는건지 등 특징도 자세히 적어두었다.
+다음은 직접 MVC 패턴으로 간단한 토이프로젝트를 만들며 이해한 코드이다.
 
 👉🏻[MVC 프로젝트 코드와 상세한 내용은 여기로](https://github.com/yurrrri/iOS_Architecture_Pattern/tree/main/MVC)   
-
 
 
 (reference: [클린 아키텍처](http://www.yes24.com/Product/Goods/77283734), [클린 코드](http://www.yes24.com/Product/Goods/11681152), [iOS Architecture Pattern](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52),
