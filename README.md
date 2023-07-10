@@ -38,8 +38,7 @@ iOS 아키텍처 패턴에 대해 공부하고 정리하는 레포입니다.
 
 #### 1. 확실한 역할의 분배
 - 객체들의 역할이 확실한가? 즉 각 모듈이 독립적으로 동작하는가?
-- 객체지향의 5원칙인 SOLID의 [S(olid Responsibility)](https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EC%B1%85%EC%9E%84_%EC%9B%90%EC%B9%99) 에 기반
-   - 모든 클래스와 함수는 하나의 책임만을 가지며, 하나의 일만 해야한다.
+- 객체지향의 5원칙인 SOLID의 [S(olid Responsibility)](https://inpa.tistory.com/entry/OOP-%F0%9F%92%A0-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%EC%84%A4%EA%B3%84%EC%9D%98-5%EA%B0%80%EC%A7%80-%EC%9B%90%EC%B9%99-SOLID) 에 기반
 - 모듈의 독립성이 떨어지면 각 모듈의 역할이 모호하여 테스팅에 어려움이 있다. 반면에, 역할이 독립적이고 확실하게 분배된다면 재사용성이 증가하며 역할 별 테스트가 가능해진다.
 
 #### 2. 테스트가 용이한가?
