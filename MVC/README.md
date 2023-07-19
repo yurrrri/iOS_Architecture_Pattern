@@ -36,20 +36,7 @@ ViewController의 역할인 화면 전환, View Controller에 있는 화면 관�
 
 즉, **빠르고 쉽게 개발을 진행해야할 때 가장 적합한 아키텍처이다.**  
 
-### 디렉토리 구조
-```bash
-├── Controller
-│   ├── EditViewController.swift
-│   └── ViewController.swift
-├── Model
-│   ├── CoreDataManager.swift
-│   ├── ToDoData+CoreDataClass.swift
-│   └── ToDoData+CoreDataProperties.swift
-├── Util
-│   └── MyColor.swift
-├── View
-└─  └── TodoCell.swift
-```
+## 토이 프로젝트
 
 ### Model
 
