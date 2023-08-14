@@ -1,4 +1,5 @@
 ## MVP
+> MVC에서 Massive View Controller의 문제를 해결하기 위해 Controller에서 비즈니스 로직을 Presenter로 분리한 패턴
 
 - M : Model
 - V : View
@@ -6,7 +7,7 @@
 
 <img src="https://github.com/yurrrri/iOS_Architecture_Pattern/assets/37764504/8a10dc99-ebb1-4fc5-a87c-01b2cfeb138c" width="500"/>
 
-- View: 사용자의 액션을 Presenter에게 전달, UI를 그림
+- View: 사용자의 액션을 Presenter에게 전달, UI 담당 로직 (MVP에서 View는 View와 ViewController 모두 포함)
 - Presenter: 이에 따라 Model의 데이터 갱신, 비즈니스 로직을 수행, View 갱신
 - Model: Model이 비즈니스 로직에 따라 데이터를 변경하면, 변화 내용을 Presenter에게 전달
 
@@ -17,4 +18,15 @@
 
 **🚨 문제점**  <br/>
 
-Controller의 역할을 Presenter로 분리하는 대신, 여전히 Presenter가 비대하다는 단점이 존재
+- Controller의 역할을 Presenter로 분리하는 대신, 여전히 Presenter가 비대하다는 단점이 존재
+- Presenter와 View 간의 높은 의존성 문제 --> 이를 ViewModel의 바인딩을 이용하여 의존성을 해결한 패턴이 MVVM 패턴
+
+## 토이 프로젝트
+
+### Model
+
+
+### View
+
+
+### Presenter
