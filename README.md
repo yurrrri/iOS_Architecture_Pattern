@@ -56,7 +56,7 @@ iOS 아키텍처 패턴에 대해 공부하고 정리하는 레포입니다.
 ### MVP
 - https://github.com/yurrrri/iOS_Architecture_Pattern/tree/main/MVP
 
-### MVVM
+### MVVM (+Coordinator)
 - https://github.com/yurrrri/iOS_Architecture_Pattern/tree/main/MVVM
 
 
