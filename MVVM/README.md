@@ -26,14 +26,12 @@
 아키텍처에 정답은 없듯이, MVVM도 마찬가지로 단점이 존재한다. <br/>
 바로 MVC 패턴에서 문제였던 Massive View Controller와 마찬가지로, ViewModel이 비대해지는 Massive View Model이 단점으로 지적된다.
 
-이를 보완한 아키텍처들은 아래와 같은 것들이 있다.
+이를 보완하기 위해 고려할 수 있는 아키텍처는 다음과 같다.
 
 - VIPER
 - RIBs
 - Clean Architecture
 
-그리고 MVVM을 통해 Controller의 역할을 분리했음에도 여전히 비중이 컸던 ViewController의 화면 전환, 화면 간 데이터 전달 등의 책임을 Coordinator로 분리한 패턴인 MVVM-C 아키텍처도 존재한다.
-- MVVM-C
 
 ## 토이 프로젝트
 ### Model
