@@ -5,9 +5,7 @@ iOS 아키텍처 패턴에 대해 공부하고 정리하는 레포입니다.
 #### 공부를 시작한 계기?
 프로젝트 출시 일정에 맞춘다고 일단 급하게 개발하고 출시를 한 다음에, "나중에 리팩토링 해야지~" 했다가 <br/>
 이후 기능 추가나 버그 수정을 할 때 나 조차도 이해 못하는 코드를 보고 멘붕이 왔고 <br/>
-다시 엎어버려야 하나 고민이 될정도로 코드가 너무 엉망이었던 경험이 있었기에, 다음 프로젝트는 설계부터 잘 해보자! 라는 마음에 공부를 시작하게 되었습니다. <br/>
-
-**❗️ 혼자 공부하면서 정리하고 적용해보는 공간이니 틀린 정보가 있을 수 있습니다! 틀린정보가 있다면 알려주시면 감사하겠습니다 :)**
+다시 엎어버려야 하나 고민이 될정도로 코드가 너무 엉망이었던 경험이 있었기에, 다음 프로젝트는 설계부터 잘 해두는것이 매우 중요하다는 생각이 들어 공부 시작 <br/>
 
 ### 아키텍처가 중요한 이유?
 
@@ -56,8 +54,17 @@ iOS 아키텍처 패턴에 대해 공부하고 정리하는 레포입니다.
 ### MVP
 - https://github.com/yurrrri/iOS_Architecture_Pattern/tree/main/MVP
 
-### MVVM (+Coordinator)
+### MVVM
 - https://github.com/yurrrri/iOS_Architecture_Pattern/tree/main/MVVM
+
+### Coordinator (디자인패턴이며 주로 MVVM과 많이 묶여 MVVM-C 아키텍처)
+- https://github.com/yurrrri/iOS_Architecture_Pattern/tree/main/Coordinator
+
+### VIPER
+
+### RIBs
+
+### Clean Architecture
 
 
 (reference: [클린 아키텍처](http://www.yes24.com/Product/Goods/77283734), [클린 코드](http://www.yes24.com/Product/Goods/11681152), [iOS Architecture Pattern](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52),
