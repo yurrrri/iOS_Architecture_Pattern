@@ -57,9 +57,6 @@ iOS 아키텍처 패턴에 대해 공부하고 정리하는 레포입니다.
 ### MVVM
 - https://github.com/yurrrri/iOS_Architecture_Pattern/tree/main/MVVM
 
-### Coordinator (디자인패턴이며 주로 MVVM과 많이 묶여 MVVM-C 아키텍처)
-- https://github.com/yurrrri/iOS_Architecture_Pattern/tree/main/Coordinator
-
 ### VIPER
 
 ### RIBs
